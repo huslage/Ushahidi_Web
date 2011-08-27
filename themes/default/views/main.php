@@ -164,7 +164,7 @@
 
 				<!-- filters -->
 				<div class="filters clearingfix">
-					<div style="float:left; width: 100%">
+					<div style="float:left; width: 80%">
 						<strong><?php echo Kohana::lang('ui_main.filters'); ?></strong>
 						<ul>
 							<li><a id="media_0" class="active" href="#"><span><?php echo Kohana::lang('ui_main.reports'); ?></span></a></li>

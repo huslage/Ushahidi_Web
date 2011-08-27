@@ -384,7 +384,7 @@ div#mainmenu a.active{
 
 /* filters */
 div.filters{
-    font-size: 85%;
+    /*font-size: 85%;*/
     text-transform: uppercase;
     margin: 5px 0 15px;
 }
@@ -2367,4 +2367,24 @@ ul.filter-list li a { display:block; position:relative; overflow:auto; padding:3
 	background-color:#E9E9E9;
 	padding:5px;
 	margin:0px 5px;
+}
+
+/*
+ * Submit report form changes by serenecloud
+ * Hides what I consider to be extra, unneeded inputs (Description is free text, links can go there)
+ * to make it less complicated for users
+ */
+span.required {
+	color: #C40E23;
+}
+div#divNews,
+div#divVideo,
+div#divPhoto {
+	display: none;
+}
+div#categories ul.treeview li div.hitarea {
+	padding-right: 2px;
+}
+div#categories ul li input[disabled=disabled] {
+	display: none;
 }

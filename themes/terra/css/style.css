@@ -41,7 +41,9 @@ div#logo{
 
 /* Main Menu */
 div#mainmenu{
-    background-color: #C2C2C2;
+    /*background-color: #C2C2C2;*/
+    background-color: #031634;
+
 }
 
 div#mainmenu a{
