@@ -8,6 +8,7 @@
 	// Action::header_scripts - Additional Inline Scripts from Plugins
 	Event::run('ushahidi_action.header_scripts');
 	?>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
 </head>
 
 <body id="page">

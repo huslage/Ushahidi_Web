@@ -434,7 +434,7 @@ a.share{
 div.map {
     border: #999 1px solid;
     width: 573px;
-    height: 366px;
+    height: 566px;
 	position:relative;
 }
 #mapStatus
@@ -2377,7 +2377,6 @@ ul.filter-list li a { display:block; position:relative; overflow:auto; padding:3
 span.required {
 	color: #C40E23;
 }
-div#divNews,
 div#divVideo,
 div#divPhoto {
 	display: none;
